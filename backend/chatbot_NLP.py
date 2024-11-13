@@ -36,6 +36,3 @@ def chamarNLP(fraseDoUsuario:str):
     if confianca < limite_confianca:
         return "Não consegui reconhecer seu problema, vamos te redirecionar para um de nossos atendentes"
     return Respostas[respostas[indice_mais_similar]]
-
-
-print(chamarNLP(input("Digite sua pergunta: ")))
