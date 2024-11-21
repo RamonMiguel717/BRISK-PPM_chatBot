@@ -1,0 +1,15 @@
+{
+    "P1": "Este é um espaço reservado para colocar a sua logo marca",
+    "P2": "Somente as pessoas que possuem permissão para receber o relatório de análise de contratos irá receber.",
+    "P4": "Verificar a resposta adequada (pergunta 5 do documento)",
+    "P5": "Verificar a resposta adequada (pergunta 6 do documento)",
+    "P7": "Provavelmente quando ocorre esse erro o usuário que não está aparecendo no cronograma não está cadastrado como recurso corporativo.",
+    "P8": "Verificar a resposta adequada (pergunta 13 do documento)",
+    "P9": "Este campo não é o mesmo da Unidade de Negócio da iniciativa/projeto. Ele se refere à outra funcionalidade específica referente à Gestão de Demandas e serve para indicar qual unidade fará o atendimento/execução do projeto. Em Administração >>>> Configurações Gerais, existem 2 parâmetros para tratar desse campo. 1 deles define o nome do campo, e o outro define se ele estará disponível ou não.",
+    "P10": "Verificar a resposta adequada (pergunta 16 do documento)",
+    "P12": "Formulários e fluxos dinâmicos só aparecem dentro dos menus dedicados a eles em fluxos e formulários. Não é possível coloca-los em outros menus.",
+    "P13": "Isso ocorre porque o tipo Projeto UTD está sem configuração de menu. Quando um tipo de projeto não tem personalização de menu, o BRISK automaticamente pega as configurações definidas para o tipo \"Projeto\". Para resolver o problema, basta fazer as edições desejadas no tipo de projeto \"Projeto UTD\".",
+    "P14": "No perfil que desejar remover a opção desmarcar o campo \"Acessar Associação de fluxos\".",
+    "P16": "É possível enviar e-mail sim. Porém o texto do e-mail é padronizado, ou seja, não tem como mudar. Se o usuário for autenticação integrada, ele não receberá a senha, pois a senha será a mesma de rede. ",
+    "P17": "Os formulários que não são possíveis de exclusão, são formulários padrões do sistema."
+}

@@ -1,0 +1,67 @@
+{
+    "P1": [
+        "Estou com um retalngulo amarelo na barra superior",
+        "O que é aquele retangulo amarelo na parte superior",
+        "Para que serve um retangulo amarelo em cima"
+    ],
+    "P2": [
+        "Usuário cadastrado como responsável de contrato, não está recebendo notificação dos vencimentos de nenhum contrato",
+        "meus contratos estão vencendo sem me notificar",
+        "como faço para receber as notificações de vencimentos dos meus contratos"
+    ],
+    "P4": [
+        "Ao tentar incluir uma nova análise no projeto, a análise anterior é excluída",
+        "Estou tentando colocar uma nova análise no projeto, mas ao fazer isso a anterior e excluida",
+        "As minhas análises antigas estão sendo exluidas ao adiconar uma nova, como posso resolver?"
+    ],
+    "P5": [
+        "Não consigo logar no sistema",
+        "nao estou conseguindo acessar o sistema com meu login",
+        "estou com problema ao tentar realizar o login"
+    ],
+    "P6": [
+        "O recurso pessoa não aparece no cronograma",
+        "Por que o recurso 'pessoa' não aparece no cronograma do sistema",
+        "Não consigo encontrar o recurso pessoa no cronograma"
+    ],
+    "P8": [
+        "O portal não mostra a listagem dos riscos excluídos, como proceder para visualização dos riscos excluídos?",
+        "Como posso acessar o histórico dos riscos excluídos e suas justificativas",
+        "Eu consigo acessar os riscos que eu já exclui?"
+    ],
+    "P9": [
+        "Na tela de iniciativas no módulo de projetos, tem uma coluna chamada unidade atendimento, gostaríamos de saber qual a sua funcionalidade",
+        "Como conseguimos configurar/usar a parte de unidade de atendiemnto",
+        "Para que serve a unidade de atendimento"
+    ],
+    "P10": [
+        "Estou com erro ao abrir o cronograma",
+        "Meu cronograma não abre",
+        "Estou com dificuldades para acessar o cronograma"
+    ],
+    "P12": [
+        "Meus formulários criados não aparecem no menu suspenso para seleção de item dentro da opção de menu em configuração de menus",
+        "Os meus fluxos criados não aparece no menu de seleção",
+        "Quando eu crio um fluxo/formulário eles não aparecem no menu"
+    ],
+    "P13": [
+        "Ao configurar o menu de projetos está alterando significativamente o menu de projetos UTD",
+        "Quando eu edito o menu de projetos ele também está mudando o menu de projetos UTD, porque isso acontece?",
+        "Por que o menu de projeto UTD é modificado quando eu altero o menu de projetos"
+    ],
+    "P14": [
+        "Como eu posso verificar os perfis que têm acesso à funcionalidade Adicionar fluxo dentro da aba Fluxos",
+        "Qual as permissões necessarias para adiconar fluxos",
+        "Como eu posso ver quem pode adicionar fluxos"
+    ],
+    "P16": [
+        "Seria possível um e-mail ser enviado ao usuário quando ele for cadastrado no sistema brisk?",
+        "Eu posso envia um e-mail para um usuário que estiver cadastrado no sistema?",
+        "Como eu posso enviar um e-mail para um usuário cadastrado no Brisk"
+    ],
+    "P17": [
+        "Estou tentando excluir alguns formularios, mas eles não excluem",
+        "Estou com um problema ao excluir um formulário",
+        "Meus formulários não estão excluindo, como posso resolver?"
+    ]
+}
