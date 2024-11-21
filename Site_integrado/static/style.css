@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Syne", sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.cabeça {
+  width: 100%;
+  height: 132px;
+}
+
+
+.agendarDemo img{
+  width: 220px;
+  height: auto;
+  position: absolute;
+  right: 118px;
+  top: 60px;
+}
+
+.logo img {
+  max-width: 200px;
+  height: auto;
+  position: absolute;
+  left: 120px;
+  top: 57px;
+}
+
+.usuariosAtivos img {
+  position: absolute;
+  left: 108px;
+  top: 9px;
+  width: 140px;
+}
+
+.wpp img {
+  position: absolute;
+  left: 1240px;
+  top: 9px;
+  width: 150px;
+}
+
+.head {
+  width: 100%;
+  height: 50px;
+  text-align: center; 
+  display: inline-block;
+  margin-top: 82px;
+}
+
+.head a {
+  text-align: center;
+  font-size: 12px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.head a:hover {
+  background-color: #f3f3f3;
+}
+
+.linha {
+  margin: 0px 20px;
+  min-width: 97.5%;
+  height: 1px;
+  background-color: gray;
+  position: absolute;
+  top: 56px; 
+}
+
+.bodyHome img{
+  width: 1530px;
+}
+
+.body {
+  background: linear-gradient(to bottom right, #7B8B3E, #a5b568);
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 160px;
+  padding-top: 50px;
+}
+
+.container-chat {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-height: 550px; 
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 22px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mensagensBox{
+  overflow: auto;
+  height: 500px;
+  width: auto;
+  padding: 15px;
+}
+
+.container-chat p {
+    font-family: "Kanit", sans-serif;
+    text-align: justify;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 0px;
+    max-height: 250px;
+
+    word-break: break-word;
+}
+
+.box {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-height: 500px; 
+  background-color: #e7e7e7;
+  padding: 20px;
+  border-radius: 22px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.chat-bubble {
+  display: inline-flex;
+  align-items: flex-start;
+  background-color: #fff;
+  border: 1px solid #7B8B3E;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px #a5b568;
+  width: 50%;
+}
+
+.message {
+  flex: 1;
+}
+.message p{
+  text-align: left;
+}
+
+.icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.chat-input-container {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  background-color: #ffffff;
+  padding: 8px;
+  border-top: 1px solid #ddd;
+  margin-top: auto;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  background-color: #e0e0e0;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.chat-input input[type="text"] {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.send-button {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-left: 8px;
+  border: none;
+  background-color: #7B8B3E;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-button img {
+  width: 20px;
+}
+
+.send-button:hover {
+  background-color: #7c8b3ebb;
+}
+
+@media (max-width: 768px) {
+  /* Empilhar logo e links em telas menores */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    flex-wrap: wrap; /* Permite que os links se ajustem e quebrem linha */
+  }
+}
+
+.teste{
+  display: flex;
+  width: 100%;
+}
+
+.usuario{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.usuario p{
+  display: inline-flex;
+  align-items: flex-start;
+  background-color: #fff;
+  border: 1px solid #7B8B3E;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px #a5b568;
+  width: 50%;
+  text-align: left;
+}
